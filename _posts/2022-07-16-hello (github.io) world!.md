@@ -1,7 +1,7 @@
 ---
 # title: 개힘들었음
 # author: cotes
-date: 2022-07-16 18:05:0020:55:00 +0800
+date: 2022-07-16 18:00
 categories: [Note]
 # tags: []
 ---
