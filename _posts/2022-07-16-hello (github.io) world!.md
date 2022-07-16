@@ -3,7 +3,7 @@
 # author: cotes
 date: 2022-07-16 18:00
 categories: [Note]
-# tags: []
+tags: [Note]
 ---
 
 <!-- ## 몇 시간 태웠지만 -->
