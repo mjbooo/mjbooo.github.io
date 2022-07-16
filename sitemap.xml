@@ -1,65 +1,97 @@
-This XML file does not appear to have any style information associated with it. The document tree is shown below.
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-<loc>http://localhost:4000/posts/write-a-new-post/</loc>
-<lastmod>2022-07-16T20:50:48+09:00</lastmod>
+  <loc>https://mjbooo.github.io/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/hello-(github.io)-world!/</loc>
-<lastmod>2022-07-16T20:50:48+09:00</lastmod>
+  <loc>https://mjbooo.github.io/categories/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/A-review-plan-for-diffusion-models/</loc>
-<lastmod>2022-07-16T20:00:00+09:00</lastmod>
+  <loc>https://mjbooo.github.io/tags/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/categories/</loc>
-<lastmod>2022-07-16T21:06:36+09:00</lastmod>
+  <loc>https://mjbooo.github.io/archives/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/</loc>
-<lastmod>2022-07-16T21:06:36+09:00</lastmod>
+  <loc>https://mjbooo.github.io/about/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/archives/</loc>
-<lastmod>2022-07-16T21:06:36+09:00</lastmod>
+  <loc>https://mjbooo.github.io/posts/A-review-plan-for-diffusion-models/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/about/</loc>
-<lastmod>2022-07-16T21:06:36+09:00</lastmod>
+  <loc>https://mjbooo.github.io/posts/hello-(github.io)-world!/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+  <loc>https://mjbooo.github.io/posts/write-a-new-post/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/note/</loc>
+  <loc>https://mjbooo.github.io/tags/diffusion-model/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/generative-model/</loc>
+  <loc>https://mjbooo.github.io/tags/generative-model/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/diffusion-model/</loc>
+  <loc>https://mjbooo.github.io/tags/note/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/review/</loc>
+  <loc>https://mjbooo.github.io/tags/review/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/categories/blogging/</loc>
+  <loc>https://mjbooo.github.io/categories/ai/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/categories/tutorial/</loc>
+  <loc>https://mjbooo.github.io/categories/diffusion-model/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/categories/note/</loc>
+  <loc>https://mjbooo.github.io/categories/blogging/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/categories/ai/</loc>
+  <loc>https://mjbooo.github.io/categories/tutorial/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/categories/diffusion-model/</loc>
+  <loc>https://mjbooo.github.io/categories/note/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
-<url>
-<loc>http://localhost:4000/googleb47747c0c777a041.html</loc>
-<lastmod>2022-07-16T21:02:24+09:00</lastmod>
-</url>
+
+
 </urlset>
