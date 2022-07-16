@@ -6,6 +6,6 @@ categories: [Note]
 tags: [Note]
 ---
 
-<!-- ## 몇 시간 태웠지만 -->
+<!-- ## 몇 시간 태웠지만! -->
 
 I'm getting used to this! 
