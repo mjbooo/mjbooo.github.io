@@ -27,3 +27,6 @@ pin: True
 
 ### Glide (?)
 - TBC..
+
+### High-Resolution Image Synthesis with Latent Diffusion Models: Diffusion for  latent vectors
+- TBC..
