@@ -4,6 +4,7 @@ title: 디퓨젼 모델 리뷰 계획!!(A review plan for diffusion models)
 date: 2022-07-16 20:00
 categories: [AI, Diffusion model]
 tags: [Generative model, Diffusion model, review]
+pinned: True
 ---
 
 ## Plan (in Kor, 기존에 없는 리뷰 위주)
