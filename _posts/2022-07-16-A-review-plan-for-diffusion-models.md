@@ -21,3 +21,9 @@ pinned: True
 
 ### D3PM
 - TBC..
+
+### Imagen
+- TBC..
+
+### Glide (?)
+- TBC..
