@@ -35,6 +35,8 @@ Diffusion model은 generative model의 대세가 되어가는 모양새이다.(�
 논문제목이 Classifier-Free Diffusion Guidance인데, 그럼 Classifier Guidance도 있지 않을까?  
 그걸 다룬 것이 Diffusion Models Beat GANs on Image Synthesis (Dhariwalet al., 2021)이다.  
 classifier-guidance를 통해 fidelity와 diversity를 trade-off 시킬 수 있고, 그렇게 하면 diffusion model이 GAN 모델 중 SOTA인 BigGAN을 fidelity면에서 이긴다는 내용이다.
+<!-- ### 여기에 사진넣고 -->
+
 
 ### Classifier-‘free’ Guidance
 그럼 왜 Classifier-‘free’ Guidance가 필요할까?  
@@ -45,6 +47,10 @@ classifier-guidance는 noised data로 학습한 pre-trained classfier가 필요�
 
 ## Motivation: Classifier Guidance
 
+
+
+
+TBC....
 
 
 
