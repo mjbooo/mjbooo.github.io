@@ -14,4 +14,4 @@ pin: True
 - <https://openreview.net/forum?id=qw8AKxfYbI>
 
 # dd
-[presentation file](https://github.com/user/repo/blob/branch/other_file.md)
+[220516_classifier_free_guidance_with_ref_mj.pdf](https://github.com/mjbooo/mjbooo.github.io/files/9216098/220516_classifier_free_guidance_with_ref_mj.pdf)
