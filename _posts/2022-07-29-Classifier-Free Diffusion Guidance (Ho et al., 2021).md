@@ -76,3 +76,10 @@ classifier-guidance에서는 diffusion model과 완전히 분리된 pre-trained 
 이론적으로는 그렇지만, 경험적으로 봤을 때는 implicit classifier 가정이 잘 먹히고 실험적으로도 증명되었기 때문에, 이론적 불완전성을 커버할 수 있다고 생각한 것 같다...(공부 더 필요.. 또르르)
 <!-- 따라서 forward 과정에서 $\hat{\epsilon}$ ${(z_{\lambda},c)}$, $\hat{\epsilon}$ ${(z_{\lambda})}$ 를 완전히 분리해서 생각할 수 없다.   -->
 <!-- 하지만 모델 $\epsilon_{\theta}$가 마치 분리된 것처럼 각각을 잘 estimate한다고 치고 implicit classifier 식을 도출하는 것 같다. -->
+
+- **sidenote: 모든 image의 평균 image는 무엇인가?**
+이건 겻님이 질문했던 내용이다.  
+unconditional로 학습할 때는 class들을 random으로 섞어서 학습한다.  
+그렇게 학습한 모델의 아웃풋은 모든 image의 평균 image일 텐데 그게 어떻게 생겼을까?라는 게 질문의 요지였다.  
+사실상 classifier-free guidance는 특정 class의 image에서 평균 image를 빼는 방식으로 guidance를 주는 것이다.
+답은 output을 직접 뽑아봐야 알겠지만, 이런 식으로 생각해본 적이 없어서 흥미로운 질문이었다,,
