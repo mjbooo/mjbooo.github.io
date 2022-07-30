@@ -24,9 +24,9 @@ Diffusion model은 generative model의 대세가 되어가는 모양새이다.(�
 그래서 여기서도 PPT 담긴 내용을 차례로 짚어가며 설명을 풀어나갈 예정이다!  
 아래 헤드라인으로 박힌 내용들은 다 ppt 슬라이드 제목에서 따온 것들이다. 
 
-# Summary
+# One-sentence Summary
 - **kor**: Diffusion Models Beat GANs on Image Synthesis에서 수행한 classifier-guidance를 pre-trained classifier 없이도 (classifier-free) 수행할 수 있음을 보인 논문  
-- **en**: Introducing classifier-free guidance which performing classifier-guidance without the pre-trained classifier, necessitated in previous paper ‘Diffusion Models Beat GANs on Image Synthesis’  
+- **en**: Introducing classifier-free guidance performing classifier-guidance without the pre-trained classifier, necessitated in previous paper ‘Diffusion Models Beat GANs on Image Synthesis’  
 - **A link for the paper**: <https://openreview.net/forum?id=qw8AKxfYbI>
 - **The PPT file I made for the review**: [220516_classifier_free_guidance_ mj.pdf](https://github.com/mjbooo/mjbooo.github.io/files/9216156/220516_classifier_free_guidance_with_ref_mj.pdf)
 
@@ -40,8 +40,9 @@ classifier-guidance를 통해 fidelity와 diversity를 trade-off 시킬 수 있�
 
 ### Classifier-‘free’ Guidance
 그럼 왜 Classifier-‘free’ Guidance가 필요할까?  
-classifier-guidance는 noised data로 학습한 pre-trained classfier가 필요한데, 이게 data pipeline을 복잡하게 만든다.  
-또 (저자들의 주장에 따르면) noised data를 사용한 것이 adversarial attack을 일으켜 성능 저하를 일으킨다.  
+- classifier-guidance는 noised data로 학습한 pre-trained classfier가 필요한데, 이게 data pipeline을 복잡하게 만든다.  
+- 또 (저자들의 주장에 따르면) noised data를 사용한 것이 adversarial attack을 일으켜 성능 저하를 일으킨다.  
+
 그래서 이 논문은 classifier 없이 순수하게 generative model만 이용해서 guidance를 주는 방법을 택했다.  
 물론 그 대가로 sampling speed가 느려질 수 있는데, 보통 classifier보다 generative model이 크기 때문에 forward가 느려서 그렇다.
 
