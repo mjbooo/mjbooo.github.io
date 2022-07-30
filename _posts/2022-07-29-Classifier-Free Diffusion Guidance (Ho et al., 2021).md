@@ -28,6 +28,8 @@ diffusion model과 score-based model의 내재적 연결성을 밝힌 것이 또
 다시말해, 원본 데이터와 timestep, epsilon을 샘플링해서 ($X_0\sim D$, timestep $t\sim T$, $\epsilon \sim N$ $X_t$를 만들고 그것으로 $\hat{\epsilon} (X_t, t)$를 output했을 때, 그 output $\hat{\epsilon}$ 가 score-function, 즉 gradients of log probability density functions이라는 것이다.  
 
 <!-- 6p 사진 -->
+![image](https://user-images.githubusercontent.com/58580193/181918422-cdcb8457-2693-44f7-971b-b865a9bbe866.png)
+
 - **그 관계가 왜 중요한가?**  
 이 점을 알고나면, classifier-guidance에서 왜 난데없이 diffusion model output $\hat{\epsilon}$ ${(z_{\lambda},c)}$에 score-function인 $\nabla_{z_{\lambda}} \log p_{\theta} (c|z_{\lambda})$ 를 더해버리는지 알 수 있다.  
 위에서 언급한 관계에 의하면 사실 둘은 같은 개념이기 때문에 weighted sum (by $w$) 할 수 있었던 것이다!  
@@ -48,7 +50,10 @@ classifier-guidance는 noised data로 학습한 pre-trained classfier가 필요�
 -- class-unconditional은 class를 random으로 섞어서 학습하고  
 학습 후 inference할 때, conditional과 unconnditional의 output $\hat{\epsilon}$ ${(z_{\lambda},c)}$, $\hat{\epsilon}$ ${(z_{\lambda})}$ 을 weighted sum 한다!
 
-<!-- 10p 사진 -->
+<!-- 10, 11p 사진 -->
+![image](https://user-images.githubusercontent.com/58580193/181918435-16dced49-88d7-4c29-bb2d-04ec706449ec.png)
+![image](https://user-images.githubusercontent.com/58580193/181918446-63fba8bf-6962-46b3-b11c-33eddc4a7082.png)
+
 - **Classifier-Free Guidance 식으로 이해하기**  
 식이 보여주는 큰 흐름을 먼저 짚자면, 기존 classifier guidance식의 guidance term을 pre-trained classifier 없이 generative model의 output $\epsilon$만으로 나타낼 수 있다는 것이다.  
 -- **implicit classifier**: classifier가 별도로 있는 것은 아니지만, 개념적으로 implicit한 classifier를 생각해보면 bayes rule을 이용해서 score function을 구할 수 있다. 
