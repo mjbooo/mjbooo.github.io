@@ -44,15 +44,15 @@ classifier-guidance는 noised data로 학습한 pre-trained classfier가 필요�
 그래서 이 논문은 classifier 없이 순수하게 generative model만 이용해서 guidance를 주는 방법을 택했다.  
 물론 그 대가로 sampling speed가 느려질 수 있는데, 보통 classifier보다 generative model이 크기 때문에 forward가 느려서 그렇다.
 
+<!-- 10, 11p 사진 -->
+![image](https://user-images.githubusercontent.com/58580193/181918435-16dced49-88d7-4c29-bb2d-04ec706449ec.png)
+![image](https://user-images.githubusercontent.com/58580193/181918446-63fba8bf-6962-46b3-b11c-33eddc4a7082.png)
+
 - **Training & Inference in Classifier-Free Guidance**  
 한 diffusion model을 (DDPM처럼 backbone은 U-net)을 train할 때  
 -- class-conditional은 특정 class로 condition을 준 후 학습하고  
 -- class-unconditional은 class를 random으로 섞어서 학습하고  
 학습 후 inference할 때, conditional과 unconnditional의 output $\hat{\epsilon}$ ${(z_{\lambda},c)}$, $\hat{\epsilon}$ ${(z_{\lambda})}$ 을 weighted sum 한다!
-
-<!-- 10, 11p 사진 -->
-![image](https://user-images.githubusercontent.com/58580193/181918435-16dced49-88d7-4c29-bb2d-04ec706449ec.png)
-![image](https://user-images.githubusercontent.com/58580193/181918446-63fba8bf-6962-46b3-b11c-33eddc4a7082.png)
 
 - **Classifier-Free Guidance 식으로 이해하기**  
 식이 보여주는 큰 흐름을 먼저 짚자면, 기존 classifier guidance식의 guidance term을 pre-trained classifier 없이 generative model의 output $\epsilon$만으로 나타낼 수 있다는 것이다.  
