@@ -7,7 +7,7 @@ tags: [Generative model, Diffusion model, review]
 pin: True
 ---
 
-## Intro
+<!-- ## Intro
 Diffusion model은 generative model의 대세가 되어가는 모양새이다.(뇌피셜)  
 그런데 정말 유명한 모델이 아니면 Diffusion model에 관한 한국어 리뷰가 별로 없어서, 기왕 논문으로 세미나한 김에 정리해서 올리자고 생각했다.  
 근데 그 생각을 한 게 5월이고 지금은 8월을 앞두고 있다,,,^^  
@@ -22,10 +22,25 @@ Diffusion model은 generative model의 대세가 되어가는 모양새이다.(�
 세미나에서 PPT를 활용하는데, 그 PPT는 내가 이해한 한도 안에서 흐름과 내용을 집약해놓은 것이다.  
 다시말해 PPT가 곧 인생 최대 이해치이다.  
 
-그래서 리뷰에서도 PPT 담긴 내용을 차례로 짚어가며 설명을 풀어나갈 예정이다!  
+그래서 리뷰에서도 PPT 담긴 내용을 차례로 짚어가며 설명을 풀어나갈 예정이다!   -->
 
-## paper list! (사람들이 리뷰하지 않은 논문 위주로 진행)
+## writers!
 
+| reviewer | homepage                  |
+|----------|---------------------------|
+| ssbae    | https://seongsubae.info/  |
+| mjlee    | https://mjbooo.github.io/ |
+| ebcho    |                           |
+
+## paper list!
+
+| # | Date     | Reviewer | Title                                                                   |
+|---|----------|----------|-------------------------------------------------------------------------|
+| 1 | 22-07-29 | mjlee    | [Classifier-Free Diffusion Guidance (Ho et al., 2021)](https://mjbooo.github.io/posts/Classifier-Free-Diffusion-Guidance-(Ho-et-al.,-2021)/)                    |
+| 2 | 22-08-05 | ssbae    | [Diffusion-LM Improves Controllable Text Generation (XL Li et al., 2022)](https://seongsubae.info/2022/08/05/diffusion-lm-improves-controllable-text-generation/) |
+| 3 | TBC...   |          |                                                                         |
+
+## 후보들
 ### Improved Denoising Diffusion Probabilistic Models (Nichol et al., 2021)
 - DDPM에 몇 가지 modification을 더해서 높은 log-likelihood, 안정적인 학습 양상을 얻었음을 주장하는 논문  
 - Introducing Improved DDPM which can be stably trained and achieve high log-likelihood by adding few modifications to DDPM)  
