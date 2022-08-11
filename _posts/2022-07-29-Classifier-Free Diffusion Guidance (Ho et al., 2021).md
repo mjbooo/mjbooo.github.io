@@ -4,7 +4,7 @@ title: 'Model review: Classifier-Free Diffusion Guidance (Ho et al., 2021)'
 date: 2022-07-29 14:00
 categories: [AI, Diffusion model]
 tags: [Generative model, Diffusion model, review, Classifier-Free Guidance, Classifier Guidance]
-pin: True
+# pin: True
 math: True
 ---
 # Intro

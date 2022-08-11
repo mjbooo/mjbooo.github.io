@@ -1,13 +1,12 @@
 ---
-title: 디퓨젼 모델 리뷰 계획!!(A review plan for diffusion models)
+title: Intro - Diffusion models
 # author: cotes
 date: 2022-07-16 20:00
 categories: [AI, Diffusion model]
 tags: [Generative model, Diffusion model, review]
-pin: True
+# pin: True
 ---
 
-## Intro
 Diffusion model은 generative model의 대세가 되어가는 모양새이다.(뇌피셜)  
 그런데 정말 유명한 모델이 아니면 Diffusion model에 관한 한국어 리뷰가 별로 없어서, 기왕 논문으로 세미나한 김에 정리해서 올리자고 생각했다.  
 근데 그 생각을 한 게 5월이고 지금은 8월을 앞두고 있다,,,^^  
@@ -22,9 +21,25 @@ Diffusion model은 generative model의 대세가 되어가는 모양새이다.(�
 세미나에서 PPT를 활용하는데, 그 PPT는 내가 이해한 한도 안에서 흐름과 내용을 집약해놓은 것이다.  
 다시말해 PPT가 곧 인생 최대 이해치이다.  
 
-그래서 리뷰에서도 PPT 담긴 내용을 차례로 짚어가며 설명을 풀어나갈 예정이다!  
+그래서 리뷰에서도 PPT 담긴 내용을 차례로 짚어가며 설명을 풀어나갈 예정이다!
+
+디퓨전 모델 세미나를 갑자기 던져준 겻님, 같이 공부한 디퓨젼 모델 스터디원들, 같이 글쓰는 ssbae, ebcho 모두 고마워~~
+
+<!-- ## writers!
+
+| reviewer | homepage                  |
+|----------|---------------------------|
+| ssbae    | https://seongsubae.info/  |
+| mjlee    | https://mjbooo.github.io/ |
+| ebcho    |                           |
 
 ## paper list! (사람들이 리뷰하지 않은 논문 위주로 진행)
+
+| # | Date     | Reviewer | Title                                                                   |
+|---|----------|----------|-------------------------------------------------------------------------|
+| 1 | 22-07-29 | mjlee    | Classifier-Free Diffusion Guidance (Ho et al., 2021)                    |
+| 2 | 22-08-05 | ssbae    | Diffusion-LM Improves Controllable Text Generation (XL Li et al., 2022) |
+| 3 | TBC...   |          |                                                                         |
 
 ### Improved Denoising Diffusion Probabilistic Models (Nichol et al., 2021)
 - DDPM에 몇 가지 modification을 더해서 높은 log-likelihood, 안정적인 학습 양상을 얻었음을 주장하는 논문  
@@ -48,5 +63,4 @@ Diffusion model은 generative model의 대세가 되어가는 모양새이다.(�
 ### High-Resolution Image Synthesis with Latent Diffusion Models: Diffusion for  latent vectors
 - TBC..
 
-### Diffusion Autoencoders: Toward a Meaningful and Decodable Representation
-- TBC..
+-->
