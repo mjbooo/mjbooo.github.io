@@ -47,3 +47,6 @@ Diffusion model은 generative model의 대세가 되어가는 모양새이다.(�
 
 ### High-Resolution Image Synthesis with Latent Diffusion Models: Diffusion for  latent vectors
 - TBC..
+
+### Diffusion Autoencoders: Toward a Meaningful and Decodable Representation
+- TBC..
