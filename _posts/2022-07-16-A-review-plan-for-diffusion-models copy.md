@@ -38,7 +38,7 @@ Diffusion model은 generative model의 대세가 되어가는 모양새이다.(�
 |---|----------|----------|-------------------------------------------------------------------------|
 | 1 | 22-07-29 | mjlee    | [Classifier-Free Diffusion Guidance (Ho et al., 2021)](https://mjbooo.github.io/posts/Classifier-Free-Diffusion-Guidance-(Ho-et-al.,-2021)/)                    |
 | 2 | 22-08-05 | ssbae    | [Diffusion-LM Improves Controllable Text Generation (XL Li et al., 2022)](https://seongsubae.info/2022/08/05/diffusion-lm-improves-controllable-text-generation/) |
-| 3 | TBC...   |          |                                                                         |
+| 3 | 22-09-20 | mjlee    | [Structured Denoising Diffusion Models in Discrete State-Spaces (Ho et al., 2021)] |
 
 ## 후보들
 ### Improved Denoising Diffusion Probabilistic Models (Nichol et al., 2021)
