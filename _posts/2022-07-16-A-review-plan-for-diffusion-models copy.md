@@ -51,8 +51,10 @@ Diffusion model은 generative model의 대세가 되어가는 모양새이다.(�
 - Introducing classifier-free guidance which can perform the functionality of classifier-guidance without the pre-trained classifier, necessitated in previous paper ‘Diffusion Models Beat GANs on Image Synthesis’  
 - <https://openreview.net/forum?id=qw8AKxfYbI>
 
-### D3PM
-- TBC..
+### Structured Denoising Diffusion Models in Discrete State-Spaces (Ho et al., 2021)
+- 기존 Multinomial diffusion model을 generalize시킴으로써 discrete state space에서 더 잘 작동하게 된 diffusion model (D3PM)을 선보인 논문
+- Introducing Discrete Denoising Diffusion Probabilistic Model (D3PM) which works better in discrete state space as it generalizes the existing multinomial diffusion model.
+- https://openreview.net/forum?id=h7-XixPCAL
 
 ### Imagen
 - TBC..
