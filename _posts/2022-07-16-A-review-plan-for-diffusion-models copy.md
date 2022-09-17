@@ -30,7 +30,7 @@ Diffusion model은 generative model의 대세가 되어가는 모양새이다.(�
 |----------|---------------------------|
 | ssbae    | https://seongsubae.info/  |
 | mjlee    | https://mjbooo.github.io/ |
-| ebcho    |                           |
+| ebcho    | https://eunbyeol-cho.github.io/                          |
 
 ## paper list!
 
