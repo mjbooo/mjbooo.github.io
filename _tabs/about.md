@@ -4,8 +4,9 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+Hi, I'm a M.S candidate in Graduate School of AI at Korea Advanced Institute of Science and Technology (KAIST).  
+I am very fortunate to have Prof. [Edward Choi](https://mp2893.com/) as my advisor.  
+I currently conduct research projects on autoencoding and synthesizing the Electronic Health Record (EHR).
 
-# Todo: CV를 tab으로 아예 따로 빼기 
-This page is gonna show my Curriculum Vitae (PDF)!
+# get my CV!
+This page is gonna show my Curriculum Vitae (Soon)!
