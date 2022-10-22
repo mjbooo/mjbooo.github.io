@@ -1,5 +1,5 @@
 ---
-title: About (CV)
+title: About (CV😎)
 icon: fas fa-info-circle
 order: 4
 ---
