@@ -9,5 +9,4 @@ I am very fortunate to have Prof. [Edward Choi](https://mp2893.com/) as my advis
 I currently conduct research projects on autoencoding and synthesizing the Electronic Health Record (EHR).
 
 # get my CV!
-This page is gonna show my Curriculum Vitae (Soon)!  
-[mjlee_CV_221022.pdf](https://github.com/mjbooo/mjbooo.github.io/files/9216156/220516_classifier_free_guidance_with_ref_mj.pdf)
+[mjlee_CV.pdf](https://github.com/mjbooo/mjbooo.github.io/files/9843389/mjlee_CV_221022.pdf)
