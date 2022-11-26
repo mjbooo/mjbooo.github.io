@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://mjbooo.github.io/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://mjbooo.github.io/categories/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mjbooo.github.io/tags/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mjbooo.github.io/archives/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mjbooo.github.io/about/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mjbooo.github.io/posts/A-review-plan-for-diffusion-models/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mjbooo.github.io/posts/hello-(github.io)-world!/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mjbooo.github.io/posts/write-a-new-post/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mjbooo.github.io/tags/diffusion-model/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mjbooo.github.io/tags/generative-model/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mjbooo.github.io/tags/note/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mjbooo.github.io/tags/review/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mjbooo.github.io/categories/ai/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mjbooo.github.io/categories/diffusion-model/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mjbooo.github.io/categories/blogging/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mjbooo.github.io/categories/tutorial/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mjbooo.github.io/categories/note/</loc>
+  <lastmod>2022-07-16T12:09:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
