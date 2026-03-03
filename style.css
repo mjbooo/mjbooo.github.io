@@ -50,21 +50,48 @@ a:hover { color: #f09228; }
   font-size: 1.3rem;
   color: #555;
   transition: color 0.15s;
+  display: flex;
+  align-items: center;
 }
 .contact-links a:hover { color: #f09228; }
 
+.icon-img {
+  width: 1.2rem;
+  height: 1.2rem;
+  fill: currentColor;
+  filter: brightness(0) saturate(100%) invert(34%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(60%);
+  transition: filter 0.15s;
+}
+.contact-links a:hover .icon-img {
+  filter: brightness(0) saturate(100%) invert(62%) sepia(80%) saturate(600%) hue-rotate(0deg) brightness(105%);
+}
+
+.cv-icon {
+  font-size: 0.75rem !important;
+  font-weight: 700;
+  color: #555 !important;
+  border: 1.5px solid #888;
+  border-radius: 3px;
+  padding: 1px 5px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+}
+.cv-icon:hover {
+  color: #f09228 !important;
+  border-color: #f09228;
+}
+
 .header-photo {
-  width: 160px;
-  min-width: 140px;
+  width: 200px;
+  min-width: 180px;
   text-align: right;
 }
 .header-photo img {
-  width: 140px;
-  height: 140px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid #ddd;
-  /* Placeholder look when image is missing */
   background: #eee;
 }
 
