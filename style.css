@@ -1,0 +1,203 @@
+/* ========== RESET & BASE ========== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Noto Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.55;
+  color: #222;
+  background: #fdfdfd;
+}
+
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+a:hover { color: #f09228; }
+
+/* ========== LAYOUT ========== */
+.container {
+  max-width: 800px;
+  margin: 40px auto 60px;
+  padding: 0 24px;
+}
+
+/* ========== HEADER ========== */
+.header-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 8px;
+}
+.header-table td { vertical-align: middle; padding: 0; }
+
+.header-info { padding-right: 24px; }
+
+.header-info h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.header-info p { margin: 4px 0; color: #444; }
+
+.contact-links {
+  margin-top: 10px !important;
+  font-size: 0.95rem;
+}
+
+.header-photo {
+  width: 160px;
+  min-width: 140px;
+  text-align: right;
+}
+.header-photo img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ddd;
+  /* Placeholder look when image is missing */
+  background: #eee;
+}
+
+/* ========== SECTION HEADERS ========== */
+h2 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+p, ul { margin: 10px 0; color: #333; }
+ul { padding-left: 1.4em; }
+li { margin: 4px 0; }
+
+/* ========== PUBLICATION TOGGLE ========== */
+.pub-toggle {
+  margin-left: auto;
+  display: flex;
+  gap: 6px;
+}
+.pub-toggle button {
+  font-size: 0.8rem;
+  padding: 2px 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background: #fff;
+  cursor: pointer;
+  color: #555;
+  font-family: inherit;
+  transition: color 0.15s;
+}
+.pub-toggle button:hover { color: #f09228; }
+.pub-toggle button.active {
+  border-color: #1772d0;
+  box-shadow: inset 0 0 0 1px #1772d0;
+  color: #1772d0;
+  font-weight: 600;
+}
+
+/* ========== PUBLICATIONS ========== */
+.pub {
+  display: flex;
+  gap: 16px;
+  margin: 18px 0;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.pub:last-child { border-bottom: none; }
+
+.pub-img-wrap {
+  flex: 0 0 120px;
+  width: 120px;
+}
+.pub-img {
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid #e0e0e0;
+  background: #f5f5f5;
+}
+
+.pub-info { flex: 1; }
+
+.pub-tag {
+  display: inline-block;
+  font-size: 0.78rem;
+  color: #888;
+  margin-bottom: 2px;
+}
+
+a.pub-title {
+  font-weight: 600;
+  color: #222;
+  display: block;
+  margin-bottom: 3px;
+  line-height: 1.4;
+}
+a.pub-title:hover { color: #1772d0; }
+
+.pub-authors { font-size: 0.88rem; color: #555; margin: 2px 0; }
+.pub-venue   { font-size: 0.85rem; color: #888; margin: 2px 0; }
+.pub-links   { font-size: 0.85rem; margin-top: 4px; }
+.pub-links a { margin-right: 6px; }
+
+.pub-year-header {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1772d0;
+  margin: 20px 0 6px;
+  border-left: 3px solid #1772d0;
+  padding-left: 8px;
+}
+
+.award {
+  font-size: 0.82rem;
+  color: #c47a00;
+  font-weight: 600;
+}
+
+/* ========== EXPERIENCE / EDUCATION TABLES ========== */
+.exp-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+}
+.exp-table tr { border-bottom: 1px solid #f2f2f2; }
+.exp-table tr:last-child { border-bottom: none; }
+.exp-table td { padding: 8px 4px; vertical-align: top; }
+
+.exp-role { width: 75%; font-size: 0.92rem; }
+.exp-date { width: 25%; text-align: right; font-size: 0.85rem; color: #888; white-space: nowrap; padding-top: 10px; }
+
+.exp-desc { font-size: 0.85rem; color: #666; margin-top: 2px; }
+
+/* ========== FOOTER ========== */
+.footer {
+  margin-top: 40px;
+  font-size: 0.8rem;
+  color: #bbb;
+  text-align: center;
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 580px) {
+  .header-table, .header-table tbody, .header-table tr, .header-table td {
+    display: block;
+    width: 100%;
+  }
+  .header-photo {
+    text-align: left;
+    margin-top: 16px;
+  }
+  .pub { flex-direction: column; }
+  .pub-img-wrap { width: 100%; }
+  .pub-img { width: 100%; height: 140px; }
+  .exp-table, .exp-table tbody, .exp-table tr, .exp-table td { display: block; width: 100%; }
+  .exp-date { text-align: left; padding-top: 0; }
+}

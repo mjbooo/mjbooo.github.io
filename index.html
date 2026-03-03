@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minjae Lee</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+
+    <!-- ===== HEADER ===== -->
+    <table class="header-table">
+      <tbody>
+        <tr>
+          <td class="header-info">
+            <h1>Minjae Lee</h1>
+            <p>AI Algorithm Researcher, <a href="https://furiosa.ai" target="_blank">FuriosaAI</a></p>
+            <p>
+              M.S., Kim Jaechul Graduate School of AI, KAIST<br />
+              B.S., Industrial &amp; Systems Engineering, KAIST
+            </p>
+            <p class="contact-links">
+              <a href="mailto:mjbooo@kaist.ac.kr">Email</a> &nbsp;/&nbsp;
+              <a href="https://scholar.google.com/citations?user=XJXKp60AAAAJ&hl=en" target="_blank">Google Scholar</a> &nbsp;/&nbsp;
+              <a href="https://github.com/mjbooo" target="_blank">GitHub</a> &nbsp;/&nbsp;
+              <a href="https://www.linkedin.com/in/mjleeofficial/" target="_blank">LinkedIn</a> &nbsp;/&nbsp;
+              <a href="mjlee_260304.docx.pdf" target="_blank">CV</a>
+            </p>
+          </td>
+          <td class="header-photo">
+            <img src="photo.jpg" alt="Minjae Lee" />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ===== ABOUT ===== -->
+    <h2>About</h2>
+    <p>
+      I am an AI Algorithm Researcher at <a href="https://furiosa.ai" target="_blank">FuriosaAI</a>, where I focus on language modeling, inference acceleration, and test-time compute scaling. My general research interest lies in <strong>efficiently solving real-world problems using machine learning</strong>, with two main threads:
+    </p>
+    <ul>
+      <li><strong>Agentic and Efficient LLM Inference</strong>: Developing methods for efficient inference and AI agents (focusing on test-time compute scaling and reasoning) within language models.</li>
+      <li><strong>Applied Healthcare ML</strong>: Investigating techniques for encoding and synthesizing Electronic Health Records (EHRs) and facilitating EHR information sharing between institutions.</li>
+    </ul>
+    <p>
+      I received my M.S. from the Kim Jaechul Graduate School of AI (GSAI) at KAIST, advised by <a href="https://edwardchoi.me" target="_blank">Edward Choi</a>, where I wrote my thesis on <em>Exploring Optimal Encoders for Electronic Health Records</em>. I completed my B.S. in Industrial &amp; Systems Engineering at KAIST with <em>Summa Cum Laude</em> honors (GPA 4.0/4.3).
+    </p>
+
+    <!-- ===== PUBLICATIONS ===== -->
+    <h2>
+      Publications
+      <span class="pub-toggle">
+        <button id="btn-selected" class="active" onclick="showView('selected')">Selected</button>
+        <button id="btn-all" onclick="showView('all')">All</button>
+      </span>
+    </h2>
+
+    <!-- SELECTED publications -->
+    <div id="view-selected">
+
+      <div class="pub">
+        <div class="pub-img-wrap">
+          <img src="img/tabed.png" alt="TABED" class="pub-img" />
+        </div>
+        <div class="pub-info">
+          <a href="#" class="pub-title">TABED: Test-Time Adaptive Ensemble Drafting for Robust Speculative Decoding in LVLMs</a>
+          <div class="pub-authors">
+            <strong>Minjae Lee</strong>*, Wonjun Kang*, Byeongkeun Ahn, Christian Classen, Kevin Galim, Seunghyuk Oh, Minghao Yan, Hyung Il Koo, Kangwook Lee
+          </div>
+          <div class="pub-venue">EACL Findings, 2026 &nbsp;|&nbsp; ICLR Workshop on Scalable Optimization for Efficient and Adaptive Foundation Models, 2026</div>
+          <div class="pub-links">
+            <a href="#">[Paper]</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-img-wrap">
+          <img src="img/versaprm.png" alt="VersaPRM" class="pub-img" />
+        </div>
+        <div class="pub-info">
+          <a href="#" class="pub-title">VersaPRM: Multi-Domain Process Reward Model via Synthetic Reasoning Data</a>
+          <div class="pub-authors">
+            Thomas Zeng, Shuibai Zhang, Shutong Wu, Christian Classen, Daewon Chae, Ethan Ewer, <strong>Minjae Lee</strong>, Heeju Kim, Wonjun Kang, Jackson Kunde, Ying Fan, Jungtaek Kim, Hyung Il Koo, Kannan Ramchandran, Dimitris Papailiopoulos, Kangwook Lee
+          </div>
+          <div class="pub-venue">ICML, 2025 &nbsp; <span class="award">&#127942; Oral (top ~1%)</span></div>
+          <div class="pub-links">
+            <a href="#">[Paper]</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-img-wrap">
+          <img src="img/chil23.png" alt="CNN EHR" class="pub-img" />
+        </div>
+        <div class="pub-info">
+          <a href="#" class="pub-title">Rediscovery of CNN's Versatility for Text-based Encoding of Raw Electronic Health Records</a>
+          <div class="pub-authors">
+            Eunbyeol Cho*, <strong>Minjae Lee</strong>*, Kyunghoon Hur, Jiyoun Kim, Jinsung Yoon, Edward Choi
+          </div>
+          <div class="pub-venue">CHIL, 2023 &nbsp; <span class="award">&#127942; Oral (top ~10 papers)</span></div>
+          <div class="pub-links">
+            <a href="#">[Paper]</a>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /#view-selected -->
+
+    <!-- ALL publications -->
+    <div id="view-all" style="display:none;">
+
+      <p class="pub-year-header">2026</p>
+
+      <div class="pub">
+        <div class="pub-info">
+          <span class="pub-tag">[C5, W1]</span>
+          <a href="#" class="pub-title">TABED: Test-Time Adaptive Ensemble Drafting for Robust Speculative Decoding in LVLMs</a>
+          <div class="pub-authors">
+            <strong>Minjae Lee</strong>*, Wonjun Kang*, Byeongkeun Ahn, Christian Classen, Kevin Galim, Seunghyuk Oh, Minghao Yan, Hyung Il Koo, Kangwook Lee
+          </div>
+          <div class="pub-venue">EACL Findings &nbsp;|&nbsp; ICLR Workshop on Scalable Optimization for Efficient and Adaptive Foundation Models</div>
+          <div class="pub-links"><a href="#">[Paper]</a></div>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-info">
+          <span class="pub-tag">[C7]</span>
+          <a href="#" class="pub-title">Draft-based Approximate Inference for LLMs</a>
+          <div class="pub-authors">
+            Kevin Galim, Ethan Ewer, Wonjun Kang, <strong>Minjae Lee</strong>, Hyung Il Koo, Kangwook Lee
+          </div>
+          <div class="pub-venue">ICLR, 2026</div>
+          <div class="pub-links"><a href="#">[Paper]</a></div>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-info">
+          <span class="pub-tag">[C6]</span>
+          <a href="#" class="pub-title">ParallelBench: Understanding the Trade-offs of Parallel Decoding in Diffusion LLMs</a>
+          <div class="pub-authors">
+            Wonjun Kang, Kevin Galim, Seunghyuk Oh, <strong>Minjae Lee</strong>, Yuchen Zeng, Shuibai Zhang, Coleman Hooper, Yuezhou Hu, Hyung Il Koo, Nam Ik Cho, Kangwook Lee
+          </div>
+          <div class="pub-venue">ICLR, 2026</div>
+          <div class="pub-links"><a href="#">[Paper]</a></div>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-info">
+          <span class="pub-tag">[W3]</span>
+          <a href="#" class="pub-title">Inference-Aligned SFT for Diffusion LLMs via Group-based Trajectory Sampling</a>
+          <div class="pub-authors">
+            Seunghyuk Oh, <strong>Minjae Lee</strong>, Kevin Galim, Minseo Kim, Hyung Il Koo, Wonjun Kang, Hanbaek Lyu, Kangwook Lee
+          </div>
+          <div class="pub-venue">ICLR Workshop on Deep Generative Model in Machine Learning, 2026</div>
+          <div class="pub-links"><a href="#">[Paper]</a></div>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-info">
+          <span class="pub-tag">[J4, W2]</span>
+          <a href="#" class="pub-title">Transformers in the Dark: Navigating Unknown Search Spaces via Noisy Feedback</a>
+          <div class="pub-authors">
+            Jungtaek Kim, Ziqian Lin, Thomas Zeng, <strong>Minjae Lee</strong>, Chungpa Lee, Jy-yong Sohn, Hyung Il Koo, Kangwook Lee
+          </div>
+          <div class="pub-venue">TMLR &nbsp;|&nbsp; NeurIPS Workshop on What Can('t) Transformers Do?, 2026</div>
+          <div class="pub-links"><a href="#">[Paper]</a></div>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-info">
+          <span class="pub-tag">[J3]</span>
+          <a href="#" class="pub-title">UNCAGE: Contrastive Attention Guidance for Masked Generative Transformers in Text-to-Image Generation</a>
+          <div class="pub-authors">
+            Wonjun Kang, Byeongkeun Ahn, <strong>Minjae Lee</strong>, Kevin Galim, Seunghyuk Oh, Hyung Il Koo, Nam Ik Cho
+          </div>
+          <div class="pub-venue">IEEE Access, 2026</div>
+          <div class="pub-links"><a href="#">[Paper]</a></div>
+        </div>
+      </div>
+
+      <p class="pub-year-header">2025</p>
+
+      <div class="pub">
+        <div class="pub-info">
+          <span class="pub-tag">[C4]</span>
+          <a href="#" class="pub-title">Generating Multi-Table Time Series EHR from Latent Space with Minimal Preprocessing</a>
+          <div class="pub-authors">
+            Eunbyeol Cho, Jiyoun Kim, <strong>Minjae Lee</strong>, Sungjin Park, Edward Choi
+          </div>
+          <div class="pub-venue">NeurIPS, 2025</div>
+          <div class="pub-links"><a href="#">[Paper]</a></div>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-info">
+          <span class="pub-tag">[C3]</span>
+          <a href="#" class="pub-title">VersaPRM: Multi-Domain Process Reward Model via Synthetic Reasoning Data</a>
+          <div class="pub-authors">
+            Thomas Zeng, Shuibai Zhang, Shutong Wu, Christian Classen, Daewon Chae, Ethan Ewer, <strong>Minjae Lee</strong>, Heeju Kim, Wonjun Kang, Jackson Kunde, Ying Fan, Jungtaek Kim, Hyung Il Koo, Kannan Ramchandran, Dimitris Papailiopoulos, Kangwook Lee
+          </div>
+          <div class="pub-venue">ICML, 2025 &nbsp; <span class="award">&#127942; Oral (top ~1%)</span></div>
+          <div class="pub-links"><a href="#">[Paper]</a></div>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-info">
+          <span class="pub-tag">[C2]</span>
+          <a href="#" class="pub-title">State-offset Tuning: State-based Parameter-Efficient Fine-Tuning for State Space Models</a>
+          <div class="pub-authors">
+            Wonjun Kang*, Kevin Galim*, Yuchen Zeng, <strong>Minjae Lee</strong>, Hyung Il Koo, Nam Ik Cho
+          </div>
+          <div class="pub-venue">ACL, 2025</div>
+          <div class="pub-links"><a href="#">[Paper]</a></div>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-info">
+          <span class="pub-tag">[J2]</span>
+          <a href="#" class="pub-title">A deep-learning algorithm using real-time collected intraoperative vital sign signals for predicting acute kidney injury after major non-cardiac surgeries: A modelling study</a>
+          <div class="pub-authors">
+            Sehoon Park, Soomin Chung, Yisak Kim, Sun-Ah Yang, Soie Kwon, Jeong Min Cho, <strong>Minjae Lee</strong>, Eunbyeol Cho, Jiwon Ryu, Sejoong Kim, Jeonghwan Lee, Hyung Jin Yoon, Edward Choi, Kwangsoo Kim, Hajeong Lee
+          </div>
+          <div class="pub-venue">PLOS Medicine, 2025</div>
+          <div class="pub-links"><a href="#">[Paper]</a></div>
+        </div>
+      </div>
+
+      <p class="pub-year-header">2023</p>
+
+      <div class="pub">
+        <div class="pub-info">
+          <span class="pub-tag">[C1]</span>
+          <a href="#" class="pub-title">Rediscovery of CNN's Versatility for Text-based Encoding of Raw Electronic Health Records</a>
+          <div class="pub-authors">
+            Eunbyeol Cho*, <strong>Minjae Lee</strong>*, Kyunghoon Hur, Jiyoun Kim, Jinsung Yoon, Edward Choi
+          </div>
+          <div class="pub-venue">CHIL, 2023 &nbsp; <span class="award">&#127942; Oral (top ~10 papers)</span></div>
+          <div class="pub-links"><a href="#">[Paper]</a></div>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-info">
+          <span class="pub-tag">[J1]</span>
+          <a href="#" class="pub-title">GenHPF: General Healthcare Predictive Framework for Multi-Task Multi-Source Learning</a>
+          <div class="pub-authors">
+            Kyunghoon Hur, Jungwoo Oh, Junu Kim, Jiyoun Kim, <strong>Minjae Lee</strong>, Eunbyeol Cho, Seong-Eun Moon, Young-Hak Kim, Louis Atallah, Edward Choi
+          </div>
+          <div class="pub-venue">IEEE Journal of Biomedical and Health Informatics (JBHI), 2023</div>
+          <div class="pub-links"><a href="#">[Paper]</a></div>
+        </div>
+      </div>
+
+      <p class="pub-year-header">Preprints / Under Review</p>
+
+      <div class="pub">
+        <div class="pub-info">
+          <span class="pub-tag">[P1]</span>
+          <a href="#" class="pub-title">Privacy-preserving synthetic data enhances postoperative acute kidney injury prediction in data-scarce clinical settings: a multicenter modeling study</a>
+          <div class="pub-authors">
+            Soie Kwon, Eunbyeol Cho, <strong>Minjae Lee</strong>, Yisak Kim, Sunah Yang, Jeong Min Cho, Sehoon Park, Chung Hee Baek, Jiwon Ryu, Sejoong Kim, Jeonghwan Lee, Ji In Park, Jin Ho Hwang, Ji Eun Kim, Kwangsoo Kim, Hyung-Jin Yoon, Edward Choi†, Hajeong Lee†
+          </div>
+          <div class="pub-venue">Preprint, 2025</div>
+          <div class="pub-links"><a href="#">[Paper]</a></div>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-info">
+          <span class="pub-tag">[U2]</span>
+          <a href="#" class="pub-title">XQuant: Breaking the Memory Wall for LLM Inference with KV Cache Rematerialization</a>
+          <div class="pub-authors">
+            Aditya Tomar*, Coleman Hooper*, <strong>Minjae Lee</strong>, Haocheng Xi, Rishabh Tiwari, Wonjun Kang, Luca Manolache, Michael W. Mahoney, Kurt Keutzer, Amir Gholami
+          </div>
+          <div class="pub-venue">Under Review, 2025</div>
+          <div class="pub-links"><a href="#">[Paper]</a></div>
+        </div>
+      </div>
+
+    </div><!-- /#view-all -->
+
+    <!-- ===== EXPERIENCE ===== -->
+    <h2>Experience</h2>
+    <table class="exp-table">
+      <tbody>
+        <tr>
+          <td class="exp-role">
+            <strong>AI Algorithm Researcher</strong><br />
+            <a href="https://furiosa.ai" target="_blank">FuriosaAI</a>, Seoul, Korea
+            <div class="exp-desc">Language modeling, inference acceleration, and test-time compute scaling</div>
+          </td>
+          <td class="exp-date">Mar. 2023 – Present</td>
+        </tr>
+        <tr>
+          <td class="exp-role">
+            <strong>Post-MS Research Assistant</strong><br />
+            KAIST, Seongnam, Korea
+            <div class="exp-desc">EHR synthesis and transfer learning in healthcare with MD collaboration</div>
+          </td>
+          <td class="exp-date">Jul. 2023 – Jul. 2024</td>
+        </tr>
+        <tr>
+          <td class="exp-role">
+            <strong>Research Intern</strong><br />
+            <a href="https://clova.ai" target="_blank">NAVER CLOVA</a>, Seongnam, Korea
+            <div class="exp-desc">Quantization and compression techniques for efficient AI models</div>
+          </td>
+          <td class="exp-date">Dec. 2021 – Feb. 2022</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ===== EDUCATION ===== -->
+    <h2>Education</h2>
+    <table class="exp-table">
+      <tbody>
+        <tr>
+          <td class="exp-role">
+            <strong>M.S. in AI</strong><br />
+            Kim Jaechul Graduate School of AI (GSAI), KAIST, Seongnam, Korea<br />
+            <span class="exp-desc">Advisor: <a href="https://edwardchoi.me" target="_blank">Edward Choi</a> &nbsp;|&nbsp; Thesis: <em>Exploring Optimal Encoders for Electronic Health Records</em></span>
+          </td>
+          <td class="exp-date">Mar. 2023</td>
+        </tr>
+        <tr>
+          <td class="exp-role">
+            <strong>B.S. in Industrial &amp; Systems Engineering</strong>; Minor in Economics<br />
+            KAIST, Daejeon, Korea<br />
+            <span class="exp-desc">Summa Cum Laude (GPA 4.0/4.3)</span>
+          </td>
+          <td class="exp-date">Feb. 2021</td>
+        </tr>
+        <tr>
+          <td class="exp-role">
+            <strong>Exchange Program</strong> in Informatics (Informatik)<br />
+            Technische Universität Berlin (TUB), Berlin, Germany<br />
+            <span class="exp-desc">Mirae Asset Outbound Exchange Student Scholarship</span>
+          </td>
+          <td class="exp-date">Apr. – Jul. 2017</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ===== TALKS ===== -->
+    <h2>Invited Talks &amp; Teaching</h2>
+    <table class="exp-table">
+      <tbody>
+        <tr>
+          <td class="exp-role">
+            <strong>Language Models in Clinical ML: My Journey with Two Questions</strong><br />
+            Center for Advanced Medical Computing and Analysis (CAMCA), Harvard Medical School / MGH
+          </td>
+          <td class="exp-date">2025</td>
+        </tr>
+        <tr>
+          <td class="exp-role">
+            <strong>How Will DeepSeek-R1 Impact Education's Future?</strong><br />
+            College of Education, Chungnam National University
+          </td>
+          <td class="exp-date">2025</td>
+        </tr>
+        <tr>
+          <td class="exp-role">
+            <strong>Summer Session for Medical AI</strong> (CNN for Chest X-ray classification)<br />
+            Korean Society of Artificial Intelligence in Medicine (KoSAIM), 100+ medical staff and students
+          </td>
+          <td class="exp-date">Summer 2023</td>
+        </tr>
+        <tr>
+          <td class="exp-role">
+            <strong>AI Short Course Program</strong> (Diffusion models)<br />
+            Korean Artificial Intelligence Association (KAIA), 100+ attendees
+          </td>
+          <td class="exp-date">Spring 2023</td>
+        </tr>
+        <tr>
+          <td class="exp-role">
+            <strong>Machine Learning for Healthcare (AI612)</strong> – Teaching Assistant<br />
+            KAIST Graduate Course, 200+ students (Instructor: Edward Choi)
+          </td>
+          <td class="exp-date">Spring 2022</td>
+        </tr>
+        <tr>
+          <td class="exp-role">
+            <strong>Programming for AI (AI504)</strong> – Teaching Assistant<br />
+            KAIST Graduate Course, 200+ students (Instructor: Edward Choi) &nbsp; <span class="award">&#127942; Best Lecture Award (Fall 2021)</span>
+          </td>
+          <td class="exp-date">Fall 2021, Fall 2022</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ===== AWARDS ===== -->
+    <h2>Awards &amp; Honors</h2>
+    <table class="exp-table">
+      <tbody>
+        <tr>
+          <td class="exp-role">Summa Cum Laude, KAIST</td>
+          <td class="exp-date">2021</td>
+        </tr>
+        <tr>
+          <td class="exp-role">National Science and Technology Scholarship, Ministry of Science, Korea</td>
+          <td class="exp-date">2021 – 2022</td>
+        </tr>
+        <tr>
+          <td class="exp-role">Outbound Exchange Student Scholarship, Mirae Asset</td>
+          <td class="exp-date">2017</td>
+        </tr>
+        <tr>
+          <td class="exp-role">Academic Excellence Scholarship (2nd place), KAIST</td>
+          <td class="exp-date">2016</td>
+        </tr>
+        <tr>
+          <td class="exp-role">National Science and Technology Scholarship (merit-based), Ministry of Science, Korea</td>
+          <td class="exp-date">2015 – 2016</td>
+        </tr>
+        <tr>
+          <td class="exp-role">Undergraduate School Fellowship, KAIST</td>
+          <td class="exp-date">2013 – 2016</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ===== SERVICES ===== -->
+    <h2>Academic Services</h2>
+    <table class="exp-table">
+      <tbody>
+        <tr>
+          <td class="exp-role">Reviewer – Machine Learning for Health Symposium (ML4H)</td>
+          <td class="exp-date">2023 – 2025</td>
+        </tr>
+        <tr>
+          <td class="exp-role">Reviewer – Machine Learning for Healthcare (MLHC)</td>
+          <td class="exp-date">2025</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p class="footer">Last updated: March 2026</p>
+
+  </div><!-- /.container -->
+
+  <script>
+    function showView(view) {
+      document.getElementById('view-selected').style.display = (view === 'selected') ? 'block' : 'none';
+      document.getElementById('view-all').style.display      = (view === 'all')      ? 'block' : 'none';
+      document.getElementById('btn-selected').classList.toggle('active', view === 'selected');
+      document.getElementById('btn-all').classList.toggle('active', view === 'all');
+      const url = new URL(window.location);
+      url.searchParams.set('view', view);
+      history.replaceState(null, '', url);
+    }
+
+    // Restore state from URL on load
+    (function () {
+      const params = new URLSearchParams(window.location.search);
+      const v = params.get('view');
+      if (v === 'all') showView('all');
+    })();
+  </script>
+</body>
+</html>
