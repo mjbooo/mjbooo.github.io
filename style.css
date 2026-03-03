@@ -55,16 +55,9 @@ a:hover { color: #f09228; }
 }
 .contact-links a:hover { color: #f09228; }
 
-.icon-img {
+.icon-svg {
   width: 1.2rem;
   height: 1.2rem;
-  /* blue: #1772d0 */
-  filter: brightness(0) saturate(100%) invert(27%) sepia(89%) saturate(600%) hue-rotate(196deg) brightness(95%);
-  transition: filter 0.15s;
-}
-.contact-links a:hover .icon-img {
-  /* orange: #f09228 */
-  filter: brightness(0) saturate(100%) invert(62%) sepia(80%) saturate(600%) hue-rotate(5deg) brightness(105%);
 }
 
 .cv-icon {
@@ -167,12 +160,12 @@ li { margin: 4px 0; }
 
 a.pub-title {
   font-weight: 600;
-  color: #222;
+  color: #1772d0;
   display: block;
   margin-bottom: 3px;
   line-height: 1.4;
 }
-a.pub-title:hover { color: #1772d0; }
+a.pub-title:hover { color: #f09228; }
 
 .pub-authors { font-size: 0.88rem; color: #555; margin: 2px 0; }
 .pub-venue   { font-size: 0.85rem; color: #888; margin: 2px 0; }
