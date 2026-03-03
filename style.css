@@ -48,7 +48,7 @@ a:hover { color: #f09228; }
 }
 .contact-links a {
   font-size: 1.3rem;
-  color: #555;
+  color: #1772d0;
   transition: color 0.15s;
   display: flex;
   align-items: center;
@@ -58,27 +58,24 @@ a:hover { color: #f09228; }
 .icon-img {
   width: 1.2rem;
   height: 1.2rem;
-  fill: currentColor;
-  filter: brightness(0) saturate(100%) invert(34%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(60%);
+  /* blue: #1772d0 */
+  filter: brightness(0) saturate(100%) invert(27%) sepia(89%) saturate(600%) hue-rotate(196deg) brightness(95%);
   transition: filter 0.15s;
 }
 .contact-links a:hover .icon-img {
-  filter: brightness(0) saturate(100%) invert(62%) sepia(80%) saturate(600%) hue-rotate(0deg) brightness(105%);
+  /* orange: #f09228 */
+  filter: brightness(0) saturate(100%) invert(62%) sepia(80%) saturate(600%) hue-rotate(5deg) brightness(105%);
 }
 
 .cv-icon {
-  font-size: 0.75rem !important;
+  font-size: 0.78rem !important;
   font-weight: 700;
-  color: #555 !important;
-  border: 1.5px solid #888;
-  border-radius: 3px;
-  padding: 1px 5px;
-  line-height: 1.4;
+  color: #1772d0 !important;
+  line-height: 1;
   letter-spacing: 0.03em;
 }
 .cv-icon:hover {
   color: #f09228 !important;
-  border-color: #f09228;
 }
 
 .header-photo {
