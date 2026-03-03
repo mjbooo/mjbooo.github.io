@@ -41,9 +41,17 @@ a:hover { color: #f09228; }
 .header-info p { margin: 4px 0; color: #444; }
 
 .contact-links {
-  margin-top: 10px !important;
-  font-size: 0.95rem;
+  margin-top: 12px !important;
+  display: flex;
+  gap: 14px;
+  align-items: center;
 }
+.contact-links a {
+  font-size: 1.3rem;
+  color: #555;
+  transition: color 0.15s;
+}
+.contact-links a:hover { color: #f09228; }
 
 .header-photo {
   width: 160px;
