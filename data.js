@@ -22,7 +22,7 @@ const COAUTHORS = {
   "Shuibai Zhang":        "https://zhangshuibai.github.io/#",
   "Shutong Wu":           "https://cychomatica.github.io/",
   "Daewon Chae":          "https://daewon88.github.io/",
-  "Heeju Kim":            null,
+  "Heeju Kim":            "https://kr.linkedin.com/in/heeju-kim-2297381a7",
   "Jackson Kunde":        "https://www.jacksonkunde.com/",
   "Ying Fan":             "https://yingfan-bot.github.io/",
   "Jungtaek Kim":         "https://jungtaekkim.github.io",
@@ -73,7 +73,7 @@ const COAUTHORS = {
   "Michael W. Mahoney":   "https://www.stat.berkeley.edu/~mmahoney/",
   "Kurt Keutzer":         "https://www2.eecs.berkeley.edu/Faculty/Homepages/keutzer.html",
   "Amir Gholami":         "https://amirgholami.org",
-  "Joonwon Lee":          null,
+  "Joonwon Lee":          "https://www.linkedin.com/in/joonwon-lee-0b643135b/",
   "Jeehoon Kang":         "https://cp.kaist.ac.kr/jeehoon.kang/",
 };
 
