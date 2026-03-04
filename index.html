@@ -17,7 +17,7 @@
         <tr>
           <td class="header-info">
             <h1>Minjae Lee</h1>
-            <p>mjbooo@kaist.ac.kr / minjae.lee.official@gmail.com</p>
+            <p>mjbooo@kaist.ac.kr<br />minjae.lee.official@gmail.com</p>
             <p class="contact-links">
               <a href="mailto:mjbooo@kaist.ac.kr" title="Email"><i class="fas fa-envelope"></i></a>
               <a href="https://scholar.google.com/citations?user=XJXKp60AAAAJ&hl=en" target="_blank" title="Google Scholar"><svg class="icon-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M5.242 13.769 0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg></a>
@@ -112,8 +112,8 @@
         <tr>
           <td class="exp-role">
             <strong>Exchange Program</strong> in Informatics (Informatik)<br />
-            Technische Universität Berlin (TUB), Berlin, Germany<br />
-            <span class="exp-desc">Mirae Asset Outbound Exchange Student Scholarship</span>
+            <a href="https://www.tu.berlin/" target="_blank">Technische Universität Berlin (TUB)</a>, Berlin, Germany<br />
+            <span class="exp-desc"><a href="https://foundation.miraeasset.com/ko/scholar-foreign/introduce/intro.do" target="_blank">Mirae Asset</a> Outbound Exchange Student Scholarship</span>
           </td>
           <td class="exp-date">Apr. – Jul. 2017</td>
         </tr>
@@ -127,28 +127,28 @@
         <tr>
           <td class="exp-role">
             <strong>Language Models in Clinical ML: My Journey with Two Questions</strong><br />
-            Center for Advanced Medical Computing and Analysis (CAMCA), Harvard Medical School / MGH
+            <a href="https://camca.mgh.harvard.edu/" target="_blank">Center for Advanced Medical Computing and Analysis (CAMCA)</a>, Harvard Medical School / MGH
           </td>
           <td class="exp-date">2025</td>
         </tr>
         <tr>
           <td class="exp-role">
             <strong>How Will DeepSeek-R1 Impact Education's Future?</strong><br />
-            College of Education, Chungnam National University
+            <a href="https://edu.cnu.ac.kr/edu/index.do" target="_blank">College of Education, Chungnam National University</a>
           </td>
           <td class="exp-date">2025</td>
         </tr>
         <tr>
           <td class="exp-role">
             <strong>Summer Session for Medical AI</strong> (CNN for Chest X-ray classification)<br />
-            Korean Society of Artificial Intelligence in Medicine (KoSAIM), 100+ medical staff and students
+            <a href="https://www.kosaim.org/html/" target="_blank">Korean Society of Artificial Intelligence in Medicine (KoSAIM)</a>, 100+ medical staff and students
           </td>
           <td class="exp-date">Summer 2023</td>
         </tr>
         <tr>
           <td class="exp-role">
             <strong>AI Short Course Program</strong> (Diffusion models)<br />
-            Korean Artificial Intelligence Association (KAIA), 100+ attendees
+            <a href="https://aiassociation.kr/" target="_blank">Korean Artificial Intelligence Association (KAIA)</a>, 100+ attendees
           </td>
           <td class="exp-date">Spring 2023</td>
         </tr>
@@ -182,7 +182,7 @@
           <td class="exp-date">2021 – 2022</td>
         </tr>
         <tr>
-          <td class="exp-role">Outbound Exchange Student Scholarship, Mirae Asset</td>
+          <td class="exp-role">Outbound Exchange Student Scholarship, <a href="https://foundation.miraeasset.com/ko/scholar-foreign/introduce/intro.do" target="_blank">Mirae Asset</a></td>
           <td class="exp-date">2017</td>
         </tr>
         <tr>
@@ -205,11 +205,11 @@
     <table class="exp-table">
       <tbody>
         <tr>
-          <td class="exp-role">Reviewer – Machine Learning for Health Symposium (ML4H)</td>
+          <td class="exp-role">Reviewer – <a href="https://ahli.cc/ml4h/" target="_blank">Machine Learning for Health Symposium (ML4H)</a></td>
           <td class="exp-date">2023 – 2025</td>
         </tr>
         <tr>
-          <td class="exp-role">Reviewer – Machine Learning for Healthcare (MLHC)</td>
+          <td class="exp-role">Reviewer – <a href="https://www.mlforhc.org/" target="_blank">Machine Learning for Healthcare (MLHC)</a></td>
           <td class="exp-date">2025</td>
         </tr>
       </tbody>
@@ -253,9 +253,7 @@
 
     // Build one .pub div
     function buildPubHTML(paper, showTag) {
-      const titleEl = paper.url
-        ? `<a href="${paper.url}" target="_blank" class="pub-title">${paper.title}</a>`
-        : `<span class="pub-title pub-title-plain">${paper.title}</span>`;
+      const titleEl = `<span class="pub-title pub-title-plain">${paper.title}</span>`;
 
       const authors = paper.authors.map(renderAuthor).join(", ");
 
