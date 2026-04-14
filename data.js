@@ -262,7 +262,7 @@ const PAPERS = [
     venues: ["Preprint, 2025"],
   },
   {
-    id: "[U2]",
+    id: "[P2]",
     selected: false,
     title: "XQuant: Breaking the Memory Wall for LLM Inference with KV Cache Rematerialization",
     url: "https://arxiv.org/abs/2508.10395",
