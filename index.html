@@ -308,6 +308,7 @@
       const el = document.getElementById("view-selected");
       el.innerHTML = PAPERS
         .filter(p => p.selected)
+        .sort((a, b) => (a.selectedOrder || 999) - (b.selectedOrder || 999))
         .map(p => buildPubHTML(p, false))
         .join("");
     }

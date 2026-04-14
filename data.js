@@ -97,6 +97,7 @@ const PAPERS = [
   {
     id: "[C5, W1]",
     selected: true,
+    selectedOrder: 1,
     title: "TABED: Test-Time Adaptive Ensemble Drafting for Robust Speculative Decoding in LVLMs",
     url: "https://arxiv.org/abs/2601.20357",
     authors: [
@@ -181,6 +182,7 @@ const PAPERS = [
   {
     id: "[C3]",
     selected: true,
+    selectedOrder: 3,
     title: "VersaPRM: Multi-Domain Process Reward Model via Synthetic Reasoning Data",
     url: "https://arxiv.org/abs/2502.06737",
     authors: [
@@ -222,6 +224,7 @@ const PAPERS = [
   {
     id: "[C1]",
     selected: true,
+    selectedOrder: 2,
     title: "Rediscovery of CNN's Versatility for Text-based Encoding of Raw Electronic Health Records",
     url: "https://arxiv.org/abs/2303.08290",
     authors: [
