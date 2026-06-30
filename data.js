@@ -33,6 +33,8 @@ const COAUTHORS = {
   "Yuezhou Hu":           "https://yuezhouhu.github.io/",
   "Nam Ik Cho":           "https://scholar.google.com/citations?user=Ntx5VRIAAAAJ&hl=en",
   "Minseo Kim":           "https://minseokim.org/",
+  "Donghoon Kim":         "https://scholar.google.com/citations?hl=en&user=FKPOG1EAAAAJ&view_op=list_works&sortby=pubdate",
+  "Harman Singh":         "https://harmandotpy.github.io/",
   "Hanbaek Lyu":          "https://hanbaeklyu.com/",
   "Ziqian Lin":           "https://myhakureimu.github.io/",
   "Chungpa Lee":          "https://www.chungpa.com/",
